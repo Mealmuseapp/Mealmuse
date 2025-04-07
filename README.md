@@ -1,8 +1,3 @@
 # MealMuse 🍽️
 
-Clean AI-powered recipe suggestion app with OpenAI integration.
-
-## Features
-- Ingredient input
-- 100+ local recipes
-- Smart filtering & AI-ready
+Final clean version. Fixes blank screen, Vercel errors, and favicon.

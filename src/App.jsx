@@ -6,7 +6,7 @@ function App() {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
-    fetch("/recipes.json")
+    fetch("./public/recipes.json")
       .then(res => res.json())
       .then(data => setRecipes(data));
   }, []);
@@ -19,7 +19,8 @@ function App() {
 
   return (
     <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
-      <h1>MealMuse 🍽️</h1>
+      <h1>MealMuse 🍽️ (Live Test)</h1>
+      <p>App is running. If you're reading this, React rendered successfully.</p>
       <input
         type="text"
         placeholder="Enter ingredients..."
