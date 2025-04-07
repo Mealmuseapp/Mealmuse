@@ -6,7 +6,7 @@ function App() {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
-    fetch("./public/recipes.json")
+    fetch("/recipes.json")
       .then(res => res.json())
       .then(data => setRecipes(data));
   }, []);
